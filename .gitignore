@@ -40,3 +40,7 @@ yarn.lock
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Custom
+./no-share
+./no-share/*
