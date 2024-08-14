@@ -44,3 +44,4 @@ yarn.lock
 # Custom
 ./no-share
 ./no-share/*
+/no-share/
