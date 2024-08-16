@@ -3,14 +3,14 @@
 이는 객체의 값을 편하게 꺼내쓰기 위한 방법이다.
 
 하나의 사례로, react에서 props를 그냥 전달 받으면
-```typescript typescript jsx
+```typescript jsx
 function Component(props) {
     return (
         <div>
             <p>Name: {props.name}</p>
-    <p>Age: {props.age}</p>
-    </div>
-);
+            <p>Age: {props.age}</p>
+        </div>
+    );
 }
 ```
 위의 코드처럼 `props.name`과 같이 명시적으로 접근해야 한다.
