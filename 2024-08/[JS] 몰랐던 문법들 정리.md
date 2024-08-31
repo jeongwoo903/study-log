@@ -25,4 +25,20 @@ function Component({ name, age }) {
   );
 }
 ```
+## nullish 병합 연산자 `??`
 
+nullish 병합 연산자(nullish coalescing operator) `??`를 사용하면, 여러 피연산자 중 그 값이 ‘확정되어있는’ 변수를 찾을 수 있다.
+
+아래 예시를 보면 `firstName`과 `lastName`의 값이 null이라서 생략되고 "바이올렛" 값이 출력되는 것을 볼 수 있다.
+이처럼 짧은 문법으로 값이 있고 없음을 쉽게 판단해 값을 결정할 수 있다.
+```js
+let firstName = null;
+let lastName = null;
+let nickName = "바이올렛";
+
+alert(firstName ?? lastName ?? nickName ?? "익명의 사용자"); // 바이올렛
+```
+아래 코드와 같이 메서드 유무에 따라 Layout의 적용을 결정 할 수도 있다.
+```js
+const getLayout = Component.getLayout ?? ((page: ReactNode) => page)
+```
