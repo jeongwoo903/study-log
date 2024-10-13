@@ -6,7 +6,7 @@
 기초의 중요성을 다시 한 번 느끼게 된 순간이였다.
 
 ## CSS 명시도 소개
-![specifishity.png](..%2F..%2F..%2FDownloads%2Fspecifishity.png)
+![specifishity](https://github.com/user-attachments/assets/1860fea0-4f90-40f2-bb77-ad4b967ec9f7)
 
 위의 이미지는 명시도의 전반에 대해서 아주 잘 보여주고 있다.
 
