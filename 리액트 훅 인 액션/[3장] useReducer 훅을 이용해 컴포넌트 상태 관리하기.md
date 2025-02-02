@@ -1,6 +1,6 @@
 # [3장] useReducer 훅을 이용해 컴포넌트 상태 관리하기
 
-# Reducer
+## Reducer
 리듀서의 이름만 봐서는 그 의미를 알기 어렵다.  
 > Re(act state Pro)ducer = 리액트 상태 제공자
 
