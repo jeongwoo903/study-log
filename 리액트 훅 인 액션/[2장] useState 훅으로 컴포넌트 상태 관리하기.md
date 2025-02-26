@@ -27,7 +27,7 @@ const setValue = valueState[1];
 ```
 
 초기 값으로 함수를 받을 수도 있는데, 이 경우 컴포넌트 렌더링 시마다 함수가 실행된다.
-하지만 [Lazy Initialization(게으른 초기화)](https://github.com/jeongwoo903/study-log/blob/main/2024-12/%5BReact%5D%20Lazy%20Initial%20State%20(%EC%A7%80%EC%97%B0%20%EA%B3%84%EC%82%B0%20%EC%B4%88%EA%B8%B0%20%EC%83%81%ED%83%9C).md#react-lazy-initialization-%EA%B2%8C%EC%9C%BC%EB%A5%B8-%EC%B4%88%EA%B8%B0%ED%99%94)
+하지만 [Lazy Initialization(게으른 초기화)](https://github.com/jeongwoo903/study-log/blob/main/2024/12/%5BReact%5D%20Lazy%20Initialization%20(%EA%B2%8C%EC%9C%BC%EB%A5%B8%20%EC%B4%88%EA%B8%B0%ED%99%94).md)
 를 이용하면 초기 상태만 함수를 이용하는 방법도 가능하다.
 
 갱신 함수는 현재 값의 상태를 반환하게 할 수도 있는데 이를 통해서 누산기를 만들수도 있다.
